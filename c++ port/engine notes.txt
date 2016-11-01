@@ -1,0 +1,40 @@
+Entity creation process:
+1. get free entity id from engine
+2. activate components for that id
+3. set component values
+4. return the id(remove entity)
+
+Add all systems BEFORE doing any entity/component stuff
+
+ENGINE INIT
+systems are added to engine
+systems add families to engine
+systems get family pointers
+
+ENTITY REMOVAL/CREATION
+Create entities whenever, because it will only affect the system updates by extending the loops.
+Call removeEntity(), NEVER call removeEntityInternal().
+
+EMPTY/TYPE COMPONENTS
+Empty components don't need an actual struct or any arrays, just add an enum.
+
+STATUS ARRAY
+Entity with a mask of 0 is essentially a dead/inactive entity, since no system will operate on it, but the status[] array is still required to make sure that in cases where you add a component to an entity with mask = 0, there is a distinction between a dead or alive entity.
+
+REPLACING ENTITIES
+When you need to replace an entity during the duration of one update cycle, you could do this:
+create new entity
+copy components from old entity
+remove old entity
+This will cause a new entity to be at the end entity lists, and the old entity space to be empty.
+Rather than do that, instead don't create a new entity but operate on an existing one, removing/activtating components, therefore avoiding unnecessary entity creation/removal.
+
+WRITING NEW SYSTEMS
+1. Create a new XSystem class that extends System
+2. Add an enum to SYSTEM enums in the engine.h
+3. Add "systems[SYSTEM ENUM] = new XSystem();" to initEngine() in engine.cpp
+
+WRITING NEW COMPONENTS
+1. Create a struct/class for the component
+2. Create an array for the component in engine.cpp and an extern in engine.h
+3. Add an enum to COMPONENT_BIT enums in engine.h

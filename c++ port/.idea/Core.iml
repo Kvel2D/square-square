@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/main.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/entity/components/particle.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/entity/components/transform.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/entity/components/texture.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/entity/engine.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/entity/system.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/entity/systems/expansionsystem.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/entity/systems/rendersystem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/entity/systems/spawnsystem.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/entity/systems/expansionsystem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/entity/systems/gameoversystem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/entity/systems/inputsystem.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/entity/systems/rendersystem.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/entity/systems/spawnsystem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/entity/systems/gameoversystem.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/entity/systems/inputsystem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/entity/family.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/entity/engine.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/globals.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/graphics/gltexture.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/graphics/gl_structs/vertexpos.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/graphics/gl_structs/color.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/graphics/gl_structs/rectangle.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/graphics/gl_structs/texcoord.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/graphics/gl_structs/texturedvertex.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/graphics/programs/shaderprogram.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/graphics/programs/textureprogram.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/graphics/programs/textureprogram.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/graphics/programs/shaderprogram.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/graphics/gltexture.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/math/vector2.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/math/random.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/globals.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/assets.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sound/sound.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sound/sound.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/assets.cpp" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Header Search Paths">
+        <CLASSES>
+          <root url="file://C:/MinGW/lib/gcc/mingw32/4.8.1/include" />
+          <root url="file://C:/MinGW/lib/gcc/mingw32/4.8.1/include-fixed" />
+          <root url="file://C:/MinGW/mingw32/include" />
+          <root url="file://C:/MinGW/include" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://C:/MinGW/lib/gcc/mingw32/4.8.1/include" />
+          <root url="file://C:/MinGW/lib/gcc/mingw32/4.8.1/include-fixed" />
+          <root url="file://C:/MinGW/mingw32/include" />
+          <root url="file://C:/MinGW/include" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
